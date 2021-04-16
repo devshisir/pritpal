@@ -728,11 +728,167 @@ main code start here
    }
 }
 
+//bread_come_area
+#bread_come_area{
+   padding: 20px 0px;
+   .bread_come_container{
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0px;
+      ul{
+         li{
+            display: inline-block;
+            margin-right: 10px;
+            i{
+               margin-right: 5px;
+            }
+            a{
+               font-weight: 500;
+               font-size: 14px;
+               &:hover{
+                  color: $mainColor;
+                  text-decoration: underline;
+               }
+            }
+         }
+         .active{
+            a{
+               color: $mainColor;
+               text-decoration: underline;
+            }
+         }
+      }
+   }
+}
 
 
+//covid_19_tools
+#covid_19_tools{
+   padding: 50px 0px;
+   background-color: #fff;
+   .top_title{
+      h3{
+         text-transform: uppercase;
+         font-weight: 500;
+         font-size: 30px;
+      }
+      p{
+         margin-top: 10px;
+         font-size: 25px;
+      }
+   }
+   .tools_wrapper{
+      margin-top: 40px;
+      .tools_item{
+         border: 1px solid #ddd;
+         padding: 40px 30px;
+         border-radius: 7px;
+         h3{
+            font-weight: 500;
+            font-size: 20px;
+         }
+         p{
+            font-size: 15px;
+            margin-top: 10px;
+         }
+         a{
+           background-color: $mainColor;
+           color: #fff;
+           padding: 14px 0px;
+           text-align: center;
+           display: block;
+           margin-top: 15px;
+           font-weight: 500;
+           font-size: 14px;
+           border-radius: 5px;
+           i{
+              margin-left: 4px;
+           }
+           &:hover{
+              background-color: $hover;
+           }
+         }
+      }
+   }
+}
 
-
-
+//tools_search_engine
+#tools_search_engine{
+   padding: 50px 0px;
+   background-color: #fff;
+   .tools_seacrh_title{
+      h3{
+         font-weight: 500;
+         font-size: 20px;
+      }
+      p{
+         font-size: 15px;
+         margin-top: 10px;
+      }
+   }
+   .tools_form_wrapper{
+      margin-top: 50px;
+      .tools_form_item{
+         border: 1px solid #ddd;
+         padding: 30px 30px;
+         border-radius: 7px;
+         margin-bottom: 20px;
+         h5{
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 15px;
+         }
+         .input_box{
+            margin-bottom: 10px;
+            label{
+               display: block;
+               font-size: 15px;
+               margin-bottom: 7px;
+            }
+            input{
+               height: 45px;
+               line-height: 45px;
+               padding: 0px 15px;
+               font-weight: 500;
+               font-size: 14px;
+               color: $titleColor;
+            }
+            select{
+               height: 45px;  
+               padding: 0px 15px;    
+               font-weight: 500;
+               font-size: 14px;    
+               color: $titleColor;   
+               option{
+                  font-size: 18px;
+                  color: $titleColor;
+               }
+            }
+         }
+      }
+      .form_submit_action{
+         margin-top: 20px;
+         button{
+            width: 100%;
+            background-color: $mainColor;
+            color: #fff;
+            border: none;
+            outline: none;
+            padding: 14px 0px;
+            font-weight: 500;
+            font-size: 14px;
+            border-radius: 4px;
+            transition: 0.4s;
+            i{
+               margin-left: 5px;
+            }
+            &:hover{
+               background-color: $hover;
+            }
+         }
+      }
+   }
+}
 
 
 
