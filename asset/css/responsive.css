@@ -2,29 +2,601 @@
 @media (min-width: 1200px) and (max-width: 1500px) {
     
 }
-@media (min-width: 1200px) and (max-width: 1300px) {
-   
+@media (min-width: 1200px) and (max-width: 1399px) {
+   #global_search_result .global_srarch_table_area table tbody tr .details_td{
+      width: 29%;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area{
+      overflow-x: scroll;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area table{
+      width: 1200px;
+   }
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+   #brand_area .brand_wrapper .brand_item{
+      margin-bottom: 30px;
+   }
+   #global_search_result .global_srarch_table_area{
+      overflow-x: scroll;
+   }
+   #global_search_result .global_srarch_table_area table{
+      width: 1300px;
+   }
+   #auth_area{
+      padding: 50px 0px;
+   }
+   #auth_area .auth_form_wrapper .auth_form_container{
+      padding: 30px;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area{
+      overflow-x: scroll;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area table{
+      width: 1200px;
+   }
+   #search_with_filter .left_filter_box .filter_title{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .filter_tag{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .filter_action{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .more_filter_form .title_filter_more{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .more_filter_form .form_wrapper{
+      padding: 20px 10px;
+   }
+   #search_with_filter .filter_search_result_area{
+      padding-right: 0px;
+      padding-left: 10px;
+   }
+   
 }
 
 
 /* MD Device :768px. */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+   #main_header{
+      padding: 10px 0px;
+   }
+   .navbar-toggler{
+      border: 1px solid #ddd;
+      background-color: #5962AC;
+      color: #fff;
+      padding: 0px;
+      height: 40px;
+      width: 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+   }
+   .navbar-toggler-icon{
+      height: auto;
+      width: auto;
 
-
-@media (max-width: 767px) {
+   }
+   #leading_research .leading_research_wrapper .leading_research_item{
+      margin-bottom: 30px;
+   }
+   #why_us .why_us_wrapper .why_us_item{
+      margin-bottom: 30px;
+   }
+   #brand_area .brand_wrapper .brand_item{
+      margin-bottom: 30px;
+   }
+   #leading_research .leading_research_wrapper{
+      padding-bottom: 50px;
+   }
+   #why_us .why_us_wrapper{
+      padding-bottom: 50px;
+   }
+   #brand_area .brand_wrapper{
+      padding-bottom: 50px;
+   }
+   #footer{
+      padding: 0px 0px 50px 0px;
+   }
+   #blog_page .blog_page_main_wrapper .blog_left_panel{
+      padding-right: 0px;
+   }
+   #blog_page{
+      padding-top: 60px;
+   }
+   #covid_19_tools .top_title h3{
+      font-size: 25px;
+   }
+   #covid_19_tools .top_title p{
+      font-size: 17px;
+      margin-top: 5px;
+   }
+   #covid_19_tools .tools_wrapper .tools_item{
+      padding: 30px 25px;
+   }
+   #global_search_result .global_srarch_table_area{
+      overflow-x: scroll;
+   }
+   #global_search_result .global_srarch_table_area table{
+      width: 1300px;
+   }
+   #auth_area{
+      padding: 50px 0px;
+   }
+   #auth_area .auth_form_wrapper .auth_form_container{
+      padding: 30px;
+   }
+   #search_with_filter .left_filter_box{
+      height: 100% !important;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area{
+      overflow-x: scroll;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area table{
+      width: 1200px;
+   }
+   #search_with_filter .left_filter_box .filter_title{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .filter_tag{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .filter_action{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .more_filter_form .title_filter_more{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .more_filter_form .form_wrapper{
+      padding: 20px 10px;
+   }
+   #search_with_filter .filter_search_result_area{
+      padding-right: 0px;
+      padding-left: 10px;
+      border: none;
+      height: 100% !important;
+   }
+   #search_with_filter .container-fluid{
+      padding: 0px 15px;
+   }
+   .filter_search_result_area #footer{
+      margin-top: 50px;
+   }
 }
 
+
+
 /*-- Phone Landscape --*/
-@media only screen and (min-width: 576px) and (max-width: 767px) {}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+   #main_header{
+      padding: 10px 0px;
+   }
+   .navbar-toggler{
+      border: 1px solid #ddd;
+      background-color: #5962AC;
+      color: #fff;
+      padding: 0px;
+      height: 40px;
+      width: 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+   }
+   .navbar-toggler-icon{
+      height: auto;
+      width: auto;
+
+   }
+   #leading_research .leading_research_wrapper .leading_research_item{
+      margin-bottom: 30px;
+   }
+   #why_us .why_us_wrapper .why_us_item{
+      margin-bottom: 30px;
+   }
+   #brand_area .brand_wrapper .brand_item{
+      margin-bottom: 30px;
+   }
+   #leading_research .leading_research_wrapper{
+      padding-bottom: 50px;
+   }
+   #why_us .why_us_wrapper{
+      padding-bottom: 50px;
+   }
+   #brand_area .brand_wrapper{
+      padding-bottom: 50px;
+   }
+   #footer{
+      padding: 0px 0px 50px 0px;
+   }
+   #serch_engine_area .main_form_area .advace_form_element .input_box{
+      margin-bottom: 15px;
+   }
+   #about_feedback_area .about_feedback_wrapper .about_feedback_content{
+      margin-top: 30px;
+   }
+   #about_feedback_area .about_feedback_wrapper{
+      padding: 40px 0px;
+   }
+   #footer .footer_wrapper .footer_left_image{
+      margin-bottom: 30px;
+   }
+   #blog_page .blog_page_main_wrapper .blog_left_panel{
+      padding-right: 0px;
+   }
+   #blog_page{
+      padding-top: 60px;
+   }
+   #covid_19_tools .top_title h3{
+      font-size: 25px;
+   }
+   #covid_19_tools .top_title p{
+      font-size: 17px;
+      margin-top: 5px;
+   }
+   #covid_19_tools .tools_wrapper .tools_item{
+      padding: 30px 40px;
+      margin-bottom: 30px;
+   }
+   #global_search_result .global_srarch_table_area{
+      overflow-x: scroll;
+   }
+   #global_search_result .global_srarch_table_area table{
+      width: 1200px;
+   }
+   #global_search_result .global_srarch_table_area table tbody tr td .view_details{
+      padding: 10px 22px;
+   }
+   #auth_area{
+      padding: 70px 0px;
+   }
+   #auth_area .auth_form_wrapper .auth_form_container{
+      padding: 50px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .top_title h4{
+      font-size: 20px;
+      line-height: 30px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .search_details_share_area .watch_list_action {
+      text-align: left !important;
+      margin-top: 20px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .data_details_area .details_item .heading{
+      width: 30%;
+   }
+   #search_with_filter .left_filter_box{
+      height: 100% !important;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area{
+      overflow-x: scroll;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area table{
+      width: 1200px;
+   }
+   #search_with_filter .left_filter_box .filter_title{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .filter_tag{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .filter_action{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .more_filter_form .title_filter_more{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .more_filter_form .form_wrapper{
+      padding: 20px 10px;
+   }
+   #search_with_filter .filter_search_result_area{
+      padding-right: 0px;
+      padding-left: 10px;
+      border: none;
+      height: 100% !important;
+   }
+   #search_with_filter .container-fluid{
+      padding: 0px 15px;
+   }
+   .filter_search_result_area #footer{
+      margin-top: 50px;
+   }
+   .filter_search_result_area #footer .footer_wrapper .footer_right_box{
+      text-align: center !important;
+      margin-top: 30px;
+   }
+   .filter_search_result_area #footer .footer_wrapper .footer_left_image{
+      text-align: center !important;
+   }
+}
 
 
 
 /* Extra small Device. */
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+   #main_header{
+      padding: 10px 0px;
+   }
+   .navbar-toggler{
+      border: 1px solid #ddd;
+      background-color: #5962AC;
+      color: #fff;
+      padding: 0px;
+      height: 40px;
+      width: 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+   }
+   .navbar-toggler-icon{
+      height: auto;
+      width: auto;
+
+   }
+   #leading_research .leading_research_wrapper .leading_research_item{
+      margin-bottom: 30px;
+   }
+   #why_us .why_us_wrapper .why_us_item{
+      margin-bottom: 30px;
+   }
+   #brand_area .brand_wrapper .brand_item{
+      margin-bottom: 40px;
+      text-align: left !important;
+   }
+   #leading_research .leading_research_wrapper{
+      padding-bottom: 50px;
+   }
+   #why_us .why_us_wrapper{
+      padding-bottom: 50px;
+   }
+   #brand_area .brand_wrapper{
+      padding-bottom: 50px;
+   }
+   #footer{
+      padding: 0px 0px 50px 0px;
+   }
+   #serch_engine_area .main_form_area .advace_form_element .input_box{
+      margin-bottom: 15px;
+   }
+   #about_feedback_area .about_feedback_wrapper .about_feedback_content{
+      margin-top: 30px;
+   }
+   #about_feedback_area .about_feedback_wrapper{
+      padding: 40px 0px;
+   }
+   #footer .footer_wrapper .footer_left_image{
+      margin-bottom: 30px;
+   }
+   .navbar.navbar-expand-lg .container-fluid{
+      padding: 0px;
+   }
+   #header_info_box .header_info_content h4{
+      font-size: 11px;
+   }
+   #header_info_box .header_info_content h4 a{
+      font-size: 12px;
+   }
+   .form_row_modify_mobile{
+      padding: 0px 10px;
+   }
+   .pr0{
+      padding-right: inherit;
+   }
+   .pl0{
+      padding-left: inherit;
+   }
+   #serch_engine_area .main_form_area .normal_form .form_subit_btn button{
+      height: 50px;
+      width: 100%;
+      line-height: 50px;
+      margin-top: 15px;
+   }
+   #serch_engine_area .main_form_area .normal_form .input_box select{
+      border: 1px solid #ddd;
+      margin-top: 15px;
+   }
+   .mpl0{
+      padding-left: 0px;
+   }
+   .mpr0{
+      padding-right: 0px;
+   }
+   #about_feedback_area .about_feedback_wrapper .about_feedback_content h3{
+      font-size: 20px;
+      line-height: 27px;
+   }
+   #footer .footer_wrapper .footer_right_box{
+      text-align: left !important;
+      margin-top: 30px;
+   }
+   #hero_banar{
+      padding: 30px 0px;
+   }
+   #serch_engine_area .top_title{
+      padding-top: 20px;
+   }
+   #serch_engine_area .top_title h3{
+      font-size: 22px;
+   }
+   #serch_engine_area .top_title p{
+      font-size: 15px;
+   }
+   #serch_engine_area .main_form_area{
+      margin-top: 30px;
+   }
+   #about_feedback_area{
+      padding: 0px;
+   }
+   #leading_research .leading_research_wrapper{
+      margin-top: 30px;
+   }
+   #leading_research .top_title h3{
+      font-size: 24px;
+   }
+   #leading_research{
+      padding-bottom: 0px;
+   }
+   #why_us .why_us_wrapper{
+      margin-top: 30px;
+   }
+   #why_us .top_title h3{
+      font-size: 22px;
+   }
+   #why_us .why_us_wrapper .why_us_item h3{
+      font-size: 18px;
+   }
+   #why_us .why_us_wrapper .why_us_item p{
+      width: 100%;
+      font-size: 15px;
+   }
+   #leading_research .leading_research_wrapper .leading_research_item h3{
+      font-size: 22px;
+   }
+   #leading_research .leading_research_wrapper .leading_research_item p{
+      width: 100%;
+      font-size: 15px;
+   }
+   #leading_research .leading_research_wrapper .leading_research_item a{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 20px;
+   }
+   #why_us{
+      padding-bottom: 0px;
+   }
+   #brand_area .top_title h3{
+      font-size: 22px;
+   }
+   #blog_page .blog_page_main_wrapper .blog_left_panel{
+      padding-right: 0px;
+   }
+   #blog_page{
+      padding-top: 30px;
+   }
+   #blog_page .blog_page_main_wrapper .blog_left_panel .blog_item .top_title a{
+      font-size: 24px;
+      line-height: 34px;
+   }
+   #covid_19_tools .top_title h3{
+      font-size: 25px;
+   }
+   #covid_19_tools .top_title p{
+      font-size: 17px;
+      margin-top: 5px;
+   }
+   #covid_19_tools .tools_wrapper .tools_item{
+      padding: 30px 25px;
+      margin-bottom: 20px;
+   }
+   #covid_19_tools{
+      padding: 30px 0px;
+   }
+   #global_search_result .global_srarch_table_area{
+      overflow-x: scroll;
+   }
+   #global_search_result .global_srarch_table_area table{
+      width: 1100px;
+   }
+   #global_search_result .global_srarch_table_area table tbody tr td .view_details{
+      padding: 10px 0px;
+      width: 120px;
+      text-align: center;
+   }
+   #global_search_result .global_srarch_table_area table tbody tr td{
+      font-size: 13px;
+   }
+   #global_search_result .global_srarch_table_area table tbody tr .details_td
+   {
+      width: 26%;
+   }
+   .bread_come_area ul li a{
+      height: 30px;
+      width: 30px;
+      line-height: 30px;
+   }
+   .bread_come_area ul li{
+      margin-bottom: 10px;
+   }
+   #auth_area{
+      padding: 40px 0px;
+   }
+   #auth_area .auth_form_wrapper .auth_form_container{
+      padding: 20px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .top_title h4{
+      font-size: 18px;
+      line-height: 30px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .search_details_share_area .watch_list_action {
+      text-align: left !important;
+      margin-top: 20px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .data_details_area .details_item .heading{
+      width:40%;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box{
+      padding-right: 0px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .top_title h4{
+      font-size: 20px;
+      line-height: 30px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .search_details_share_area .watch_list_action {
+      text-align: left !important;
+      margin-top: 20px;
+   }
+   #result_details_area .result_details_wrapper .result_details_left_box .data_details_area .details_item .heading{
+      width: 30%;
+   }
+   #search_with_filter .left_filter_box{
+      height: 100% !important;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area{
+      overflow-x: scroll;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area table{
+      width: 1200px;
+   }
+   #search_with_filter .left_filter_box .filter_title{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .filter_tag{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .filter_action{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .more_filter_form .title_filter_more{
+      padding: 20px 10px;
+   }
+   #search_with_filter .left_filter_box .more_filter_form .form_wrapper{
+      padding: 20px 10px;
+   }
+   #search_with_filter .filter_search_result_area{
+      padding-right: 0px;
+      padding-left: 10px;
+      border: none;
+      height: 100% !important;
+   }
+   #search_with_filter .container-fluid{
+      padding: 0px;
+   }
+   .filter_search_result_area #footer{
+      margin-top: 50px;
+   }
+   .filter_search_result_area #footer .footer_wrapper .footer_right_box{
+      text-align: center !important;
+      margin-top: 30px;
+   }
+   .filter_search_result_area #footer .footer_wrapper .footer_left_image{
+      text-align: center !important;
+   }
+   #search_with_filter .filter_search_result_area .main_table_box_area table tbody tr td{
+      font-size: 13px;
+   }
+}
 
 
 

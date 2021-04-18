@@ -1,0 +1,511 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+   <meta charset="utf-8">
+   <title>Searcg with filter</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- google fonts link  -->
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet">
+   <!-- Favicons -->
+   <link rel="icon" href="asset/img/favicons/icon.png">
+   <!-- bootstrap css link  -->
+   <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+   <!-- font awsome icon link -->
+   <link rel="stylesheet" href="asset/css/fontawsome.css">
+   <!-- main css file link -->
+   <link rel="stylesheet" href="asset/css/style.css">
+   <!-- responsive css link -->
+   <link rel="stylesheet" href="asset/css/responsive.css">
+   <!-- this is for mordanizar js link -->
+   <script src="asset/js/vendor/modernizr-3.6.0.min.js"></script>
+</head>
+
+<body>
+   <!-- start header area  -->
+   <header id="main_header">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12">
+               <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                     <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="asset/img/logo.png" alt="">
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                           <i class="far fa-bars"></i>
+                        </span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                 data-bs-toggle="dropdown" aria-expanded="false">
+                                 About
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <li><a class="dropdown-item" href="#">Contact us</a></li>
+                                 <li><a class="dropdown-item" href="#">Our company</a></li>
+                                 <li><a class="dropdown-item" href="#">Vision</a></li>
+                                 <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                 <li><a class="dropdown-item" href="#">Logos</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Blog</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">COVID-19</a>
+                           </li>
+                        </ul>
+                        <div class="d-flex">
+                           <div class="header_auth_btn">
+                              <ul>
+                                 <li><a class="res_btn" href="#">Register</a></li>
+                                 <li><a href="#">Login</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header area  -->
+
+   <!-- search with filter area  -->
+   <section id="search_with_filter">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-8 col-sm-7 pr0">
+               <div class="left_filter_box">
+                  <div class="filter_title">
+                     <h3>ACTIVE FILTERS</h3>
+                  </div>
+                  <div class="filter_tag">
+                     <h3>Including terms:</h3>
+                     <ul>
+                        <li>
+                           <div class="alert alert-dismissible fade show" role="alert">Construction
+                              <button type="button" data-bs-dismiss="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+                            </div>
+                        </li>
+                        <li>
+                           <div class="alert alert-dismissible fade show" role="alert">Your tag line
+                              <button type="button" class="" data-bs-dismiss="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+                            </div>
+                        </li>
+                        <li>
+                           <div class="alert alert-dismissible fade show" role="alert">Your tag line
+                              <button type="button" data-bs-dismiss="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+                            </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="filter_action">
+                     <ul>
+                        <li><a class="active" href="#">Apply filter</a></li>
+                        <li><a href="#">clear filter</a></li>
+                     </ul>
+                  </div>
+                  <div class="more_filter_form">
+                     <div class="title_filter_more">
+                        <h3>MORE FILTERS</h3>
+                     </div>
+                     <div class="form_wrapper">
+                        <form action="#">
+                           <div class="form_box">
+                              <div class="form_haeding">
+                                 <h5>Keywords</h5>
+                              </div>
+                              <div class="input_box">
+                                 <label>Includes keywords</label>
+                                 <input type="text" class="c_input" placeholder="e.g. PPE">
+                              </div>
+                              <div class="input_box">
+                                 <label>Excludes keywords</label>
+                                 <input type="text" class="c_input" placeholder="e.g. Construction" value="construction">
+                              </div>
+                           </div>
+                           <div class="form_box">
+                              <div class="form_haeding">
+                                 <h5>Buyer</h5>
+                              </div>
+                              <div class="input_box">
+                                 <label>Buyer name</label>
+                                 <input type="text" class="c_input large_input" placeholder="">
+                              </div>
+                           </div>
+                           <div class="form_box">
+                              <div class="form_haeding">
+                                 <h5>Supplier</h5>
+                              </div>
+                              <div class="input_box">
+                                 <label>Supplier  name</label>
+                                 <input type="text" class="c_input large_input" placeholder="e.g. Capita">
+                              </div>
+                           </div>
+                           <div class="form_box">
+                              <div class="form_haeding">
+                                 <h5>Value</h5>
+                              </div>
+                              <div class="input_box">
+                                 <label>Value is greater</label>
+                                 <input type="number" class="c_input" placeholder="£">
+                              </div>
+                              <div class="input_box">
+                                 <label>Value is less than:</label>
+                                 <input type="number" class="c_input" placeholder="£">
+                              </div>
+                           </div>
+                           <div class="form_box">
+                              <div class="form_haeding">
+                                 <h5>Demo seelct</h5>
+                              </div>
+                              <div class="input_box">
+                                 <label>Agree Option</label>
+                                 <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="check1">
+                                    <label class="form-check-label" for="check1">
+                                      Option label here
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="check2">
+                                    <label class="form-check-label" for="check2">
+                                      Option label here
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="check3">
+                                    <label class="form-check-label" for="check3">
+                                      Option label here
+                                    </label>
+                                  </div>
+                              </div>
+                           </div>
+                           <div class="form_box">
+                              <div class="form_haeding">
+                                 <h5>Demo Radio</h5>
+                              </div>
+                              <div class="input_box">
+                                 <label>Agree Option</label>
+                                 <div class="form-check">
+                                    <input class="form-check-input" name="radio_box1" type="radio" value="" id="radio1">
+                                    <label class="form-check-label" for="radio1">
+                                      Option label here
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" name="radio_box1" type="radio" value="" id="radio2">
+                                    <label class="form-check-label" for="radio2">
+                                      Option label here
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" name="radio_box1" type="radio" value="" id="radio3">
+                                    <label class="form-check-label" for="radio3">
+                                      Option label here
+                                    </label>
+                                  </div>
+                              </div>
+                           </div>
+                           <div class="form_box">
+                              <div class="form_haeding">
+                                 <h5>Select opion</h5>
+                              </div>
+                              <div class="input_box">
+                                 <label>Select option</label>
+                                 <select class="c_input">
+                                    <option value="0">Select option</option>
+                                    <option value="0">option info </option>
+                                    <option value="0">option info </option>
+                                    <option value="0">option info </option>
+                                    <option value="0">option info </option>
+                                    <option value="0">option info </option>
+                                    <option value="0">option info </option>
+                                    <option value="0">option info </option>
+                                    <option value="0">option info </option>
+                                    <option value="0">option info </option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="form_filter_submit_action">
+                              <button type="submit">Apply filter</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xxl-10 col-xl-9 col-lg-9">
+               <div class="filter_search_result_area">
+                  <div id="bread_come_area">
+                     <div class="bread_come_container">
+                        <ul>
+                           <li><a href="#"><i class="fal fa-home"></i> Home</a></li>
+                           <li><i class="fal fa-angle-double-right"></i></li>
+                           <li class="active"><a href="#">Supplier Search</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="filter_search_result_top_info">
+                     <ul>
+                        <li>Search results</li>
+                        <li>Showing 1 to 10 of 100 results.</li>
+                     </ul>
+                  </div>
+                  <div class="main_table_box_area">
+                     <table class="table table-borderless">
+                        <thead>
+                           <tr>
+                              <th>Supplier</th>
+                              <th>Supplier Search</th>
+                              <th>No. of Contracts</th>
+                              <th>No. of Buyers</th>
+                              <th>Last Contract Publish Date</th>
+                              <th>Actions</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>
+                                 <a href="#">NILAI PENAWARAN</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>98,414</td>
+                              <td>	37,869</td>
+                              <td>11 October 2017</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">AMERISOURCEBERGEN DRUG CORPORATION</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>64,626</td>
+                              <td>5</td>
+                              <td>24 September 2020</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">FARMEXIM S.A.</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>60,000</td>
+                              <td>585</td>
+                              <td>16 April 2021</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">NATIONAL INDUSTRIES FOR THE BLIND</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>58,758</td>
+                              <td>22</td>
+                              <td>20 September 2020</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">MEDIPLUS EXIM</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>57,642</td>
+                              <td>366</td>
+                              <td>16 April 2021</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">CARDINAL HEALTH 200, LLC</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>53,797</td>
+                              <td>10</td>
+                              <td>24 September 2020</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">SCIENCE APPLICATIONS INTERNATIONAL CORPORATION</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>46,155</td>
+                              <td>83</td>
+                              <td>02 February 2021</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">FARMEXPERT D.C.I. S.R.L.</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>40,852</td>
+                              <td>448</td>
+                              <td>16 April 2021</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">FARMACEUTICA REMEDIA DISTRIBUTION & LOGISTICS S.R.L.</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>32,806</td>
+                              <td>491</td>
+                              <td>16 April 2021</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <a href="#">L C INDUSTRIES INC.</a>
+                              </td>
+                              <td>
+                                 <a href="#">Search on Google</a>
+                              </td>
+                              <td>32,574</td>
+                              <td>7</td>
+                              <td>13 September 2020</td>
+                              <td>
+                                 <a href="#">More details <i class="fal fa-angle-double-right"></i></a>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <div class="main_table_pagination">
+                        <div class="row">
+                           <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                              <div class="pagination_button">
+                                 <a class="disabled" href="#">Previous page results</a>
+                              </div>
+                           </div>
+                           <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 text-end">
+                              <div class="pagination_button">
+                                 <a href="#">Next page results</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- start footer area  -->
+                  <footer id="footer">
+                     <div class="footer_wrapper">
+                        <div class="row align-items-center">
+                           <div class="col-xxl-4 col-xl-4 col-lg-12">
+                              <div class="footer_left_image">
+                                 <ul>
+                                    <li><img class="img-fluid" src="asset/img/ocp.png" alt=""></li>
+                                    <li><img class="img-fluid" src="asset/img/open-data.png" alt=""></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-xxl-4 col-xl-4 col-lg-6">
+                              <div class="footer_social text-center">
+                                 <div class="link_box">
+                                    <ul>
+                                       <li><a href="#">Home</a></li>
+                                       <li>|</li>
+                                       <li><a href="#">Blog</a></li>
+                                       <li>|</li>
+                                       <li><a href="#">Legal / license</a></li>
+                                       <li>|</li>
+                                       <li><a href="#">Cookie guff</a></li>
+                                    </ul>
+                                 </div>
+                                 <div class="social_box">
+                                    <ul>
+                                       <li><a href="#"><i class="fal fa-envelope"></i></a></li>
+                                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                       <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xxl-4 col-xl-4 col-lg-6">
+                              <div class="footer_right_box text-end">
+                                 <ul>
+                                    <li>The Rain Cloud Victoria</li>
+                                    <li>76 Vincent Square</li>
+                                    <li>London SW1P 2PD</li>
+                                    <li>United Kingdom</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </footer>
+                  <!-- end footer area  -->
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end search with filter area  -->
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- all javascript load here -->
+   <script src="asset/js/vendor/jquery-3.3.1.min.js"></script>
+   <script src="asset/js/bootstrap.bundle.min.js"></script>
+   <script src="asset/js/custom.js"></script>
+   <script>
+   </script>
+</body>
+
+</html>
